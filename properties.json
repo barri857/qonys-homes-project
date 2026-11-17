@@ -1,0 +1,688 @@
+[
+  {
+    "id": "krisha-1014195219",
+    "listingId": "1014195219",
+    "complex": "Dara Residence",
+    "title": {
+      "en": "Dara Residence",
+      "ru": "Dara Residence",
+      "kk": "Dara Residence"
+    },
+    "description": {
+      "en": "A renovated three-room apartment on the fourth floor. The advertisement lists parquet flooring, three-metre ceilings, parking, a coded entry lock, and a video intercom.",
+      "ru": "Трёхкомнатная квартира после ремонта на четвёртом этаже. В объявлении указаны паркет, трёхметровые потолки, паркинг, кодовый замок и видеодомофон.",
+      "kk": "Төртінші қабаттағы жаңадан жөнделген үш бөлмелі пәтер. Хабарландыруда паркет, үш метрлік төбе, паркинг, кодты құлып және бейнедомофон көрсетілген."
+    },
+    "city": "Astana",
+    "districtCode": "Yesil",
+    "district": {
+      "en": "Yesil district",
+      "ru": "Район Есиль",
+      "kk": "Есіл ауданы"
+    },
+    "address": {
+      "en": "Sarayshyq Street 34a",
+      "ru": "Улица Сарайшык, 34а",
+      "kk": "Сарайшық көшесі, 34а"
+    },
+    "type": "apartment",
+    "price": 137000000,
+    "rooms": 3,
+    "area": 82,
+    "floor": 4,
+    "floors": 20,
+    "condition": {
+      "en": "Fresh renovation",
+      "ru": "Свежий ремонт",
+      "kk": "Жаңа жөндеу"
+    },
+    "coverImage": "images/astana-dara-residence.jpg",
+    "image": "images/krisha-1014195219-1.jpg",
+    "images": [
+      "images/krisha-1014195219-1.jpg",
+      "images/krisha-1014195219-2.jpg",
+      "images/krisha-1014195219-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "photo",
+      "photo"
+    ],
+    "features": [
+      "parking",
+      "security"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1014195219",
+    "sourceChecked": "2026-11-14",
+    "featured": true
+  },
+  {
+    "id": "krisha-1012173190",
+    "listingId": "1012173190",
+    "complex": "W Towers",
+    "title": {
+      "en": "W Towers",
+      "ru": "W Towers",
+      "kk": "W Towers"
+    },
+    "description": {
+      "en": "A two-room, 71.14 m² apartment on floor 5 of 22. It is offered with an open plan; the source lists parking and 2.95-metre ceilings. The seller describes a Khan Shatyr view.",
+      "ru": "Двухкомнатная квартира площадью 71,14 м² на 5 этаже из 22. Указаны свободная планировка, паркинг и потолки 2,95 м. Продавец сообщает о виде на Хан Шатыр.",
+      "kk": "22 қабатты үйдің 5 қабатындағы ауданы 71,14 м² екі бөлмелі пәтер. Еркін жоспарлау, паркинг және 2,95 м төбе көрсетілген. Сатушы Хан Шатырға көрініс барын хабарлайды."
+    },
+    "city": "Astana",
+    "districtCode": "Nura",
+    "district": {
+      "en": "Nura district",
+      "ru": "Район Нура",
+      "kk": "Нұра ауданы"
+    },
+    "address": {
+      "en": "E-308 Street · near Turan Avenue and Khan Shatyr",
+      "ru": "Улица Е-308 · проспект Туран, рядом с Хан Шатыром",
+      "kk": "Е-308 көшесі · Тұран даңғылы, Хан Шатыр маңы"
+    },
+    "type": "apartment",
+    "price": 81000000,
+    "rooms": 2,
+    "area": 71.14,
+    "floor": 5,
+    "floors": 22,
+    "condition": {
+      "en": "Open-plan shell",
+      "ru": "Свободная планировка",
+      "kk": "Еркін жоспарлау"
+    },
+    "coverImage": "images/astana-w-towers.jpg",
+    "image": "images/krisha-1012173190-1.jpg",
+    "images": [
+      "images/krisha-1012173190-1.jpg",
+      "images/krisha-1012173190-2.jpg",
+      "images/krisha-1012173190-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "photo",
+      "photo"
+    ],
+    "features": [
+      "parking"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1012173190",
+    "sourceChecked": "2026-11-14",
+    "featured": false
+  },
+  {
+    "id": "krisha-1015357574",
+    "listingId": "1015357574",
+    "complex": "Dom na Botanicheskom",
+    "title": {
+      "en": "Dom na Botanicheskom",
+      "ru": "Дом на Ботаническом",
+      "kk": "Ботаникалық бақ жанындағы үй"
+    },
+    "description": {
+      "en": "A 120 m² three-room apartment on floor 4 of 18, with three bathrooms and a Botanical Garden view stated by the seller. Two parking spaces and storage are offered at additional cost.",
+      "ru": "Трёхкомнатная квартира 120 м² на 4 этаже из 18. Продавец указывает три санузла и вид на Ботанический сад. Два парковочных места и кладовая предлагаются за отдельную плату.",
+      "kk": "18 қабатты үйдің 4 қабатындағы 120 м² үш бөлмелі пәтер. Сатушы үш санитарлық торап пен Ботаникалық баққа көріністі көрсеткен. Екі тұрақ орны мен қойма бөлек төленеді."
+    },
+    "city": "Astana",
+    "districtCode": "Yesil",
+    "district": {
+      "en": "Yesil district",
+      "ru": "Район Есиль",
+      "kk": "Есіл ауданы"
+    },
+    "address": {
+      "en": "Bukhar Zhyrau Street 28A · Aqmeshit",
+      "ru": "Улица Бухар Жырау, 28А · Акмешит",
+      "kk": "Бұқар жырау көшесі, 28А · Ақмешіт"
+    },
+    "type": "apartment",
+    "price": 210000000,
+    "rooms": 3,
+    "area": 120,
+    "floor": 4,
+    "floors": 18,
+    "condition": null,
+    "coverImage": "images/astana-botanical.jpg",
+    "image": "images/krisha-1015357574-1.jpg",
+    "images": [
+      "images/krisha-1015357574-1.jpg",
+      "images/krisha-1015357574-2.jpg",
+      "images/krisha-1015357574-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "photo",
+      "photo"
+    ],
+    "features": [],
+    "sourceUrl": "https://krisha.kz/a/show/1015357574",
+    "sourceChecked": "2026-11-14",
+    "featured": false
+  },
+  {
+    "id": "krisha-1015552802",
+    "listingId": "1015552802",
+    "complex": "Nexpo Aura",
+    "title": {
+      "en": "Nexpo Aura",
+      "ru": "Nexpo Aura",
+      "kk": "Nexpo Aura"
+    },
+    "description": {
+      "en": "A four-room, 140 m² apartment on floor 12 of 13. The seller describes a shell finish and three viewing directions. The source lists a glazed balcony, parking, three-metre ceilings, and guarded access.",
+      "ru": "Четырёхкомнатная квартира площадью 140 м² на 12 этаже из 13. Продавец указывает черновую отделку и три видовые стороны. В параметрах указаны остеклённый балкон, паркинг, потолки 3 м и охрана.",
+      "kk": "13 қабатты үйдің 12 қабатындағы ауданы 140 м² төрт бөлмелі пәтер. Сатушы бастапқы әрлеу мен үш жаққа көріністі көрсеткен. Параметрлерінде әйнектелген балкон, паркинг, 3 м төбе және күзет аталған."
+    },
+    "city": "Astana",
+    "districtCode": "Yesil",
+    "district": {
+      "en": "Yesil district",
+      "ru": "Район Есиль",
+      "kk": "Есіл ауданы"
+    },
+    "address": {
+      "en": "Mangilik El Avenue 57",
+      "ru": "Проспект Мангилик Ел, 57",
+      "kk": "Мәңгілік Ел даңғылы, 57"
+    },
+    "type": "apartment",
+    "price": 155000000,
+    "rooms": 4,
+    "area": 140,
+    "floor": 12,
+    "floors": 13,
+    "condition": {
+      "en": "Shell finish",
+      "ru": "Черновая отделка",
+      "kk": "Бастапқы әрлеу"
+    },
+    "coverImage": "images/astana-nexpo-aura.jpg",
+    "image": "images/krisha-1015552802-1.jpg",
+    "images": [
+      "images/krisha-1015552802-1.jpg",
+      "images/krisha-1015552802-2.jpg",
+      "images/krisha-1015552802-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "photo",
+      "view"
+    ],
+    "features": [
+      "balcony",
+      "parking",
+      "security"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1015552802",
+    "sourceChecked": "2026-11-14",
+    "featured": false
+  },
+  {
+    "id": "krisha-1014418376",
+    "listingId": "1014418376",
+    "complex": "Miranda",
+    "title": {
+      "en": "Miranda",
+      "ru": "Miranda",
+      "kk": "Miranda"
+    },
+    "description": {
+      "en": "A three-room, 89 m² apartment on floor 9 of 9 in a 2023 building. The source lists furniture, parking and security systems.",
+      "ru": "Трёхкомнатная квартира площадью 89 м² на 9 этаже из 9 в доме 2023 года. В источнике указаны мебель, паркинг и системы безопасности.",
+      "kk": "2023 жылғы үйдің 9 қабатындағы ауданы 89 м² үш бөлмелі пәтер. Дереккөзде жиһаз, паркинг және қауіпсіздік жүйелері көрсетілген."
+    },
+    "city": "Astana",
+    "districtCode": "Nura",
+    "district": {
+      "en": "Nura district",
+      "ru": "Район Нура",
+      "kk": "Нұра ауданы"
+    },
+    "address": {
+      "en": "Abiken Bekturov Street 19",
+      "ru": "Абикен Бектуров 19",
+      "kk": "Әбікен Бектұров көшесі, 19"
+    },
+    "type": "apartment",
+    "price": 72000000,
+    "rooms": 3,
+    "area": 89,
+    "floor": 9,
+    "floors": 9,
+    "condition": {
+      "en": "Previously renovated, well maintained",
+      "ru": "Не новый, но аккуратный ремонт",
+      "kk": "Бұрын жасалған, ұқыпты сақталған жөндеу"
+    },
+    "coverImage": "images/astana-miranda.jpg",
+    "image": "images/krisha-1014418376-1.jpg",
+    "images": [
+      "images/krisha-1014418376-1.jpg",
+      "images/krisha-1014418376-2.jpg",
+      "images/krisha-1014418376-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "photo",
+      "photo"
+    ],
+    "features": [
+      "parking",
+      "furnished",
+      "security"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1014418376",
+    "sourceChecked": "2026-11-14",
+    "featured": true
+  },
+  {
+    "id": "krisha-1014822297",
+    "listingId": "1014822297",
+    "complex": "Sensata Park",
+    "title": {
+      "en": "Sensata Park",
+      "ru": "Sensata Park",
+      "kk": "Sensata Park"
+    },
+    "description": {
+      "en": "A renovated two-room apartment of 60.2 m² on floor 9 of 9. The advertisement lists a balcony, full furnishing and nearby guarded parking.",
+      "ru": "Двухкомнатная квартира после ремонта площадью 60,2 м² на 9 этаже из 9. Указаны балкон, полная меблировка и охраняемая парковка рядом.",
+      "kk": "9 қабатты үйдің 9 қабатындағы ауданы 60,2 м² жөнделген екі бөлмелі пәтер. Балкон, толық жиһаз және жақын маңдағы күзетілетін тұрақ көрсетілген."
+    },
+    "city": "Astana",
+    "districtCode": "Yesil",
+    "district": {
+      "en": "Yesil district",
+      "ru": "Район Есиль",
+      "kk": "Есіл ауданы"
+    },
+    "address": {
+      "en": "Turkistan Street 16/4",
+      "ru": "ул. Туркестан 16/4",
+      "kk": "Түркістан көшесі, 16/4"
+    },
+    "type": "apartment",
+    "price": 58000000,
+    "rooms": 2,
+    "area": 60.2,
+    "floor": 9,
+    "floors": 9,
+    "condition": {
+      "en": "Fresh renovation",
+      "ru": "Свежий ремонт",
+      "kk": "Жаңа жөндеу"
+    },
+    "coverImage": "images/astana-sensata-park.jpg",
+    "image": "images/krisha-1014822297-1.jpg",
+    "images": [
+      "images/krisha-1014822297-1.jpg",
+      "images/krisha-1014822297-2.jpg",
+      "images/krisha-1014822297-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "photo",
+      "photo"
+    ],
+    "features": [
+      "balcony",
+      "parking",
+      "furnished",
+      "security"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1014822297",
+    "sourceChecked": "2026-11-14",
+    "featured": false
+  },
+  {
+    "id": "krisha-1009533077",
+    "listingId": "1009533077",
+    "complex": "Hayat",
+    "title": {
+      "en": "Hayat",
+      "ru": "Hayat",
+      "kk": "Hayat"
+    },
+    "description": {
+      "en": "A renovated two-room apartment of 76.2 m² on floor 3 of 7 in a 2024 building. The source lists 3.3 m ceilings and parking.",
+      "ru": "Двухкомнатная квартира после ремонта площадью 76,2 м² на 3 этаже из 7 в доме 2024 года. Указаны потолки 3,3 м и паркинг.",
+      "kk": "2024 жылғы 7 қабатты үйдің 3 қабатындағы ауданы 76,2 м² жөнделген екі бөлмелі пәтер. Төбесі 3,3 м және паркинг көрсетілген."
+    },
+    "city": "Astana",
+    "districtCode": "Saraishyk",
+    "district": {
+      "en": "Saraishyk district",
+      "ru": "Район Сарайшык",
+      "kk": "Сарайшық ауданы"
+    },
+    "address": {
+      "en": "Kasym Amanzholov Street 22A",
+      "ru": "Касым Аманжолова 22А",
+      "kk": "Қасым Аманжолов көшесі, 22А"
+    },
+    "type": "apartment",
+    "price": 76000000,
+    "rooms": 2,
+    "area": 76.2,
+    "floor": 3,
+    "floors": 7,
+    "condition": {
+      "en": "Fresh renovation",
+      "ru": "Свежий ремонт",
+      "kk": "Жаңа жөндеу"
+    },
+    "coverImage": "images/astana-hayat.jpg",
+    "image": "images/krisha-1009533077-1.jpg",
+    "images": [
+      "images/krisha-1009533077-1.jpg",
+      "images/krisha-1009533077-2.jpg",
+      "images/krisha-1009533077-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "photo",
+      "photo"
+    ],
+    "features": [
+      "parking"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1009533077",
+    "sourceChecked": "2026-11-14",
+    "featured": false
+  },
+  {
+    "id": "krisha-1016064754",
+    "listingId": "1016064754",
+    "complex": "Soul Park",
+    "title": {
+      "en": "Soul Park",
+      "ru": "Soul Park",
+      "kk": "Soul Park"
+    },
+    "description": {
+      "en": "A furnished three-room apartment of 90.2 m² on floor 10 of 16. The source lists fresh renovation, a glazed balcony, parking and storage.",
+      "ru": "Меблированная трёхкомнатная квартира площадью 90,2 м² на 10 этаже из 16. Указаны свежий ремонт, остеклённый балкон, паркинг и кладовая.",
+      "kk": "16 қабатты үйдің 10 қабатындағы ауданы 90,2 м² жиһаздалған үш бөлмелі пәтер. Жаңа жөндеу, әйнектелген балкон, паркинг және қойма көрсетілген."
+    },
+    "city": "Astana",
+    "districtCode": "Nura",
+    "district": {
+      "en": "Nura district",
+      "ru": "Район Нура",
+      "kk": "Нұра ауданы"
+    },
+    "address": {
+      "en": "Iliyas Omarov Street 2/1",
+      "ru": "Илияс Омаров 2/1",
+      "kk": "Ілияс Омаров көшесі, 2/1"
+    },
+    "type": "apartment",
+    "price": 69000000,
+    "rooms": 3,
+    "area": 90.2,
+    "floor": 10,
+    "floors": 16,
+    "condition": {
+      "en": "Fresh renovation",
+      "ru": "Свежий ремонт",
+      "kk": "Жаңа жөндеу"
+    },
+    "coverImage": "images/astana-soul-park.jpg",
+    "image": "images/krisha-1016064754-1.jpg",
+    "images": [
+      "images/krisha-1016064754-1.jpg",
+      "images/krisha-1016064754-2.jpg",
+      "images/krisha-1016064754-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "photo",
+      "photo"
+    ],
+    "features": [
+      "balcony",
+      "parking",
+      "furnished",
+      "storage"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1016064754",
+    "sourceChecked": "2026-11-14",
+    "featured": true
+  },
+  {
+    "id": "krisha-1014098031",
+    "listingId": "1014098031",
+    "complex": "Manar",
+    "title": {
+      "en": "Manar",
+      "ru": "Manar",
+      "kk": "Manar"
+    },
+    "description": {
+      "en": "Three-room apartment with rough finishing on the top floor of a nine-storey 2025 brick building. The listing includes a balcony, parking and three-metre ceilings.",
+      "ru": "Трёхкомнатная квартира в черновой отделке на последнем этаже девятиэтажного кирпичного дома 2025 года. Указаны балкон, паркинг и потолки три метра.",
+      "kk": "2025 жылғы тоғыз қабатты кірпіш үйдің соңғы қабатындағы қара әрлеулі үш бөлмелі пәтер. Балкон, паркинг және үш метрлік төбе көрсетілген."
+    },
+    "city": "Astana",
+    "districtCode": "Yesil",
+    "district": {
+      "en": "Yesil district",
+      "ru": "Район Есиль",
+      "kk": "Есіл ауданы"
+    },
+    "address": {
+      "en": "Syzganov Street 1/1",
+      "ru": "Сызганова 1/1",
+      "kk": "Сызғанов көшесі, 1/1"
+    },
+    "type": "apartment",
+    "price": 56000000,
+    "rooms": 3,
+    "area": 93,
+    "floor": 9,
+    "floors": 9,
+    "condition": {
+      "en": "Shell finish",
+      "ru": "Черновая отделка",
+      "kk": "Бастапқы әрлеу"
+    },
+    "coverImage": "images/astana-manar.jpg",
+    "image": "images/krisha-1014098031-1.jpg",
+    "images": [
+      "images/krisha-1014098031-1.jpg",
+      "images/krisha-1014098031-2.jpg",
+      "images/krisha-1014098031-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "view",
+      "floorplan"
+    ],
+    "features": [
+      "balcony",
+      "parking",
+      "security"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1014098031",
+    "sourceChecked": "2026-11-14",
+    "featured": false
+  },
+  {
+    "id": "krisha-1015455489",
+    "listingId": "1015455489",
+    "complex": "Talmas",
+    "title": {
+      "en": "Talmas · 1-room",
+      "ru": "Talmas · 1-комнатная",
+      "kk": "Talmas · 1 бөлмелі"
+    },
+    "description": {
+      "en": "One-room apartment in a 2024 monolithic building, with a loggia and three-metre ceilings. Parking and controlled access are listed.",
+      "ru": "Однокомнатная квартира в монолитном доме 2024 года с лоджией и потолками три метра. В объявлении указаны паркинг и контроль доступа.",
+      "kk": "Лоджиясы және үш метрлік төбесі бар, 2024 жылғы монолитті үйдегі бір бөлмелі пәтер. Паркинг пен кіруді бақылау көрсетілген."
+    },
+    "city": "Astana",
+    "districtCode": "Yesil",
+    "district": {
+      "en": "Yesil district",
+      "ru": "Район Есиль",
+      "kk": "Есіл ауданы"
+    },
+    "address": {
+      "en": "Mangilik El Avenue 68",
+      "ru": "Мангилик Ел 68",
+      "kk": "Мәңгілік Ел даңғылы, 68"
+    },
+    "type": "apartment",
+    "price": 35000000,
+    "rooms": 1,
+    "area": 38,
+    "floor": 3,
+    "floors": 9,
+    "condition": {
+      "en": "Renovation described by the seller",
+      "ru": "Ремонт указан в описании продавца",
+      "kk": "Сатушы сипаттамасында жөндеу көрсетілген"
+    },
+    "coverImage": "images/astana-talmas.jpg",
+    "image": "images/krisha-1015455489-1.jpg",
+    "images": [
+      "images/krisha-1015455489-1.jpg",
+      "images/krisha-1015455489-2.jpg",
+      "images/krisha-1015455489-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "sharedarea",
+      "sharedarea"
+    ],
+    "features": [
+      "balcony",
+      "parking",
+      "security"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1015455489",
+    "sourceChecked": "2026-11-14",
+    "featured": false
+  },
+  {
+    "id": "krisha-1014859924",
+    "listingId": "1014859924",
+    "complex": "Aiqyn",
+    "title": {
+      "en": "Aiqyn",
+      "ru": "Aiqyn",
+      "kk": "Aiqyn"
+    },
+    "description": {
+      "en": "Fully furnished two-room apartment with fresh renovation, a 22 m² kitchen, laminate flooring and fibre internet. Located on floor six of fourteen.",
+      "ru": "Полностью меблированная двухкомнатная квартира со свежим ремонтом, кухней 22 м², ламинатом и оптическим интернетом. Шестой этаж из четырнадцати.",
+      "kk": "Жаңа жөндеуі, 22 м² асүйі, ламинаты және оптикалық интернеті бар толық жиһаздалған екі бөлмелі пәтер. Он төрт қабатты үйдің алтыншы қабатында."
+    },
+    "city": "Astana",
+    "districtCode": "Yesil",
+    "district": {
+      "en": "Yesil district",
+      "ru": "Район Есиль",
+      "kk": "Есіл ауданы"
+    },
+    "address": {
+      "en": "Bokeykhan Street 52 · Turar Rysqulov",
+      "ru": "Бокейхана 52 — Т. Рыскулова",
+      "kk": "Бөкейхан көшесі, 52 · Тұрар Рысқұлов"
+    },
+    "type": "apartment",
+    "price": 40000000,
+    "rooms": 2,
+    "area": 43.8,
+    "floor": 6,
+    "floors": 14,
+    "condition": {
+      "en": "Fresh renovation",
+      "ru": "Свежий ремонт",
+      "kk": "Жаңа жөндеу"
+    },
+    "coverImage": "images/astana-aiqyn.jpg",
+    "image": "images/krisha-1014859924-1.jpg",
+    "images": [
+      "images/krisha-1014859924-1.jpg",
+      "images/krisha-1014859924-2.jpg",
+      "images/krisha-1014859924-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "photo",
+      "photo"
+    ],
+    "features": [
+      "furnished",
+      "storage",
+      "security"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1014859924",
+    "sourceChecked": "2026-11-14",
+    "featured": false
+  },
+  {
+    "id": "krisha-1015265850",
+    "listingId": "1015265850",
+    "complex": "Talmas",
+    "title": {
+      "en": "Talmas · 3-room",
+      "ru": "Talmas · 3-комнатная",
+      "kk": "Talmas · 3 бөлмелі"
+    },
+    "description": {
+      "en": "Fully furnished three-room apartment with fresh renovation, a 20 m² kitchen and a balcony. The source lists parking, air conditioning and controlled access.",
+      "ru": "Полностью меблированная трёхкомнатная квартира со свежим ремонтом, кухней 20 м² и балконом. Указаны паркинг, кондиционер и контроль доступа.",
+      "kk": "Жаңа жөндеуі, 20 м² асүйі және балконы бар толық жиһаздалған үш бөлмелі пәтер. Паркинг, кондиционер және кіруді бақылау көрсетілген."
+    },
+    "city": "Astana",
+    "districtCode": "Yesil",
+    "district": {
+      "en": "Yesil district",
+      "ru": "Район Есиль",
+      "kk": "Есіл ауданы"
+    },
+    "address": {
+      "en": "Mangilik El Avenue 68",
+      "ru": "Мангилик Ел 68",
+      "kk": "Мәңгілік Ел даңғылы, 68"
+    },
+    "type": "apartment",
+    "price": 63000000,
+    "rooms": 3,
+    "area": 63,
+    "floor": 8,
+    "floors": 9,
+    "condition": {
+      "en": "Fresh renovation",
+      "ru": "Свежий ремонт",
+      "kk": "Жаңа жөндеу"
+    },
+    "coverImage": "images/astana-talmas.jpg",
+    "image": "images/krisha-1015265850-1.jpg",
+    "images": [
+      "images/krisha-1015265850-1.jpg",
+      "images/krisha-1015265850-2.jpg",
+      "images/krisha-1015265850-3.jpg"
+    ],
+    "imageKinds": [
+      "photo",
+      "view",
+      "photo"
+    ],
+    "features": [
+      "balcony",
+      "parking",
+      "furnished",
+      "security"
+    ],
+    "sourceUrl": "https://krisha.kz/a/show/1015265850",
+    "sourceChecked": "2026-11-14",
+    "featured": false
+  }
+]
