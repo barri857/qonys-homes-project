@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Qonys Homes — an interactive student real estate project for Astana. Explore real Krisha apartment listing snapshots, compare homes, and save your favorites.">
+    <meta name="color-scheme" content="light dark">
+    <title>The collection | Qonys Homes</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="vendor/jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="properties">
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+    
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Qonys Homes"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M7 20 20 7l13 13v14H7V20Z" stroke="currentColor" stroke-width="1.7"/><path d="M14 34V20h12v14M2 20 20 2l18 18" stroke="currentColor" stroke-width="1.7"/></svg><span>QONYS<small>H O M E S</small></span></a>
+        <nav id="main-nav" class="main-nav" aria-label="Main navigation" data-i18n-aria="common.mainNavigation">
+          <a href="index.html" class="nav-link  " ><span data-i18n="nav.home">Home</span></a>
+          <a href="properties.html" class="nav-link  active" aria-current="page"><span data-i18n="nav.properties">Properties</span></a>
+          <a href="saved.html" class="nav-link  " ><span data-i18n="nav.saved">Saved homes</span> <span class="saved-count" data-saved-count>0</span></a>
+          <a href="about.html" class="nav-link  " ><span data-i18n="nav.about">Our team</span></a>
+          <a href="contact.html" class="nav-link mobile-contact " ><span data-i18n="nav.contact">Get in touch</span></a>
+        </nav>
+        <div class="header-actions">
+          <label class="visually-hidden" for="language-select" data-i18n="nav.language">Choose language</label>
+          <select id="language-select" class="language-select">
+            <option value="en">EN</option>
+            <option value="kk">ҚАЗ</option>
+            <option value="ru">РУС</option>
+          </select>
+          <button
+            type="button"
+            id="theme-toggle"
+            class="theme-toggle"
+            data-i18n-aria="nav.theme"
+            aria-label="Switch color theme"><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11-11 8 8 0 1 0 11 11Z"/></svg></button>
+          <a href="contact.html" class="button button-small header-contact" data-i18n="nav.contact">Get in touch</a>
+          <button
+            id="menu-toggle"
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="main-nav"
+            data-i18n-aria="nav.menu"
+            aria-label="Open navigation"><span></span><span></span></button>
+        </div>
+      </div>
+    </header>
+    
+    <main id="main">
+      <section class="container page-intro">
+        <div class="intro-rule">
+          <p class="eyebrow" data-i18n="properties.eyebrow">THE ASTANA COLLECTION</p>
+          <span id="collection-range">01 — 12</span>
+        </div>
+        <h1 data-i18n="properties.title">Your next chapter, in Astana.</h1>
+        <p data-i18n="properties.subtitle">Compare Astana apartments using asking prices and details shown on Krisha. Every entry links to its original advertisement.</p>
+      </section>
+      <section class="container collection-section">
+        <form id="filter-form" class="filter-panel">
+          <div class="filter-main">
+            <div class="filter-search">
+              <label for="search-input" data-i18n="properties.search">Search homes</label>
+              <input
+                id="search-input"
+                name="q"
+                type="search"
+                class="form-control"
+                data-i18n-placeholder="properties.searchPlaceholder"
+                placeholder="Search a complex, street, or district">
+            </div>
+            <div>
+              <label for="district-filter" data-i18n="properties.district">District</label>
+              <select id="district-filter" name="district" class="form-select">
+                <option value="all" data-i18n="properties.allDistricts">All districts</option>
+                <option value="Yesil" data-i18n="district.Yesil">Yesil</option>
+                <option value="Nura" data-i18n="district.Nura">Nura</option>
+                <option value="Saraishyk" data-i18n="district.Saraishyk">Saraishyk</option>
+              </select>
+            </div>
+            <div>
+              <label for="price-filter" data-i18n="properties.budget">Maximum asking price</label>
+              <select id="price-filter" name="price" class="form-select">
+                <option value="all" data-i18n="properties.anyPrice">Any price</option>
+                <option value="35000000" data-i18n="properties.upTo35">Up to ₸35 million</option>
+                <option value="60000000" data-i18n="properties.upTo60">Up to ₸60 million</option>
+                <option value="100000000" data-i18n="properties.upTo100">Up to ₸100 million</option>
+              </select>
+            </div>
+            <div>
+              <label for="rooms-filter" data-i18n="properties.rooms">Rooms</label>
+              <select id="rooms-filter" name="rooms" class="form-select">
+                <option value="all" data-i18n="properties.anyBeds">Any number</option>
+                <option value="1" data-i18n="properties.rooms1">1+ rooms</option>
+                <option value="2" data-i18n="properties.rooms2">2+ rooms</option>
+                <option value="3" data-i18n="properties.rooms3">3+ rooms</option>
+                <option value="4" data-i18n="properties.rooms4">4+ rooms</option>
+              </select>
+            </div>
+          </div>
+          <div class="filter-bottom">
+            <button id="reset-filters" type="button" class="text-button" data-i18n="properties.reset">Reset filters</button>
+            <div class="sort-field">
+              <label for="sort-select" data-i18n="properties.sort">Sort by</label>
+              <select id="sort-select" name="sort" class="form-select">
+                <option value="featured" data-i18n="properties.sortFeatured">Our picks first</option>
+                <option value="price-asc" data-i18n="properties.sortLow">Price: low to high</option>
+                <option value="price-desc" data-i18n="properties.sortHigh">Price: high to low</option>
+                <option value="area-desc" data-i18n="properties.sortArea">Largest space</option>
+              </select>
+            </div>
+          </div>
+        </form>
+        <div class="collection-status">
+          <p id="results-count" role="status" aria-live="polite"></p>
+          <span class="collection-line"></span>
+        </div>
+        <div id="property-grid" class="row g-4">
+          <p class="loading-text" role="status" data-i18n="common.loading">Finding your next possibility…</p>
+        </div>
+        <div id="empty-state" class="empty-state" hidden>
+          <span aria-hidden="true">⌂</span>
+          <h2 data-i18n="properties.emptyTitle">A little room to explore?</h2>
+          <p data-i18n="properties.emptyText">Try another district, a higher budget, or fewer filters.</p>
+        </div>
+        <p class="demo-notice" data-i18n="properties.demo">Krisha page snapshots checked on 14 November 2026; indexed pages may be older. Card covers show the complex, while galleries use images from the exact ad. Check the original for current prices and availability.</p>
+        <div id="comparison-bar" class="comparison-bar" hidden>
+          <div>
+            <span class="compare-dot"></span>
+            <span id="compare-count">0</span>
+          </div>
+          <div class="comparison-actions">
+            <button id="compare-clear" type="button" class="text-button" data-i18n="compare.clear">Clear selection</button>
+            <button id="compare-open" type="button" class="button button-small" data-i18n="compare.open">Compare homes</button>
+          </div>
+        </div>
+      </section>
+      <section class="calculator-section">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5">
+              <p class="eyebrow" data-i18n="calculator.eyebrow">PLAN YOUR NEXT STEP</p>
+              <h2 data-i18n="calculator.title">Make room in your budget.</h2>
+              <p data-i18n="calculator.text">Explore how the price, deposit, and term change an estimated monthly payment.</p>
+              <p class="small-note" data-i18n="calculator.note">A sample calculation only. Excludes fees, insurance, taxes, and lender rules. This is not a loan offer.</p>
+            </div>
+            <div class="col-lg-7">
+              <div class="calculator-card">
+                <form id="payment-form" class="row g-3" novalidate>
+                  <div class="col-sm-6">
+                    <label for="calc-price" data-i18n="calculator.price">Home price (₸)</label>
+                    <input
+                      id="calc-price"
+                      class="form-control"
+                      type="number"
+                      min="1"
+                      max="10000000000"
+                      value="60000000"
+                      step="1000000"
+                      required>
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="calc-deposit" data-i18n="calculator.deposit">Down payment (%)</label>
+                    <input
+                      id="calc-deposit"
+                      class="form-control"
+                      type="number"
+                      min="0"
+                      max="99"
+                      value="20"
+                      step="1"
+                      required>
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="calc-rate" data-i18n="calculator.rate">Annual interest (%)</label>
+                    <input id="calc-rate" class="form-control" type="number" min="0" max="50" value="18" step="0.1" required>
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="calc-years" data-i18n="calculator.years">Term (years)</label>
+                    <input id="calc-years" class="form-control" type="number" min="1" max="40" value="20" step="1" required>
+                  </div>
+                </form>
+                <div class="calculator-result" aria-live="polite">
+                  <span data-i18n="calculator.monthly">Estimated monthly payment</span>
+                  <strong id="calc-result">—</strong>
+                  <p id="calc-summary"></p>
+                  <p id="calc-error" class="field-error" role="status"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a class="footer-brand" href="index.html">QONYS<span>HOMES</span></a>
+            <h2 data-i18n="footer.title">Find your place.</h2>
+            <p data-i18n="footer.text">Considered homes. New beginnings. A place to belong.</p>
+          </div>
+          <div class="footer-links">
+            <span class="eyebrow" data-i18n="footer.explore">Explore</span>
+            <a href="properties.html" data-i18n="nav.properties">Properties</a>
+            <a href="saved.html" data-i18n="nav.saved">Saved homes</a>
+            <a href="about.html" data-i18n="nav.about">Our team</a>
+            <a href="contact.html" data-i18n="nav.contact">Get in touch</a>
+          </div>
+          <div class="footer-project">
+            <span class="eyebrow" data-i18n="footer.project">THE FINAL PROJECT</span>
+            <p class="footer-lead" data-i18n="footer.lead">Project lead: Temirgaliyev Nurassyl</p>
+              <p data-i18n="footer.team">Created by a team of four</p>
+            <div class="footer-monogram">N / S / D / A</div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span data-i18n="footer.copyright">© 2026 Qonys Homes</span>
+          <span data-i18n="footer.demo">Educational project · Krisha price snapshots · Demo forms</span>
+        </div>
+      </div>
+    </footer>
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" data-i18n-aria="a11y.backTop">↑</button>
+    <noscript>
+      <p class="noscript-notice">Please enable JavaScript to load homes, switch languages, and use interactive features.</p>
+    </noscript>
+    <div id="toast-region" class="toast-region" aria-live="polite"></div>
+  </body>
+</html>

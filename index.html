@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Qonys Homes — an interactive student real estate project for Astana. Explore real Krisha apartment listing snapshots, compare homes, and save your favorites.">
+    <meta name="color-scheme" content="light dark">
+    <title>Find your place | Qonys Homes</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="vendor/jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+    
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Qonys Homes"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M7 20 20 7l13 13v14H7V20Z" stroke="currentColor" stroke-width="1.7"/><path d="M14 34V20h12v14M2 20 20 2l18 18" stroke="currentColor" stroke-width="1.7"/></svg><span>QONYS<small>H O M E S</small></span></a>
+        <nav id="main-nav" class="main-nav" aria-label="Main navigation" data-i18n-aria="common.mainNavigation">
+          <a href="index.html" class="nav-link  active" aria-current="page"><span data-i18n="nav.home">Home</span></a>
+          <a href="properties.html" class="nav-link  " ><span data-i18n="nav.properties">Properties</span></a>
+          <a href="saved.html" class="nav-link  " ><span data-i18n="nav.saved">Saved homes</span> <span class="saved-count" data-saved-count>0</span></a>
+          <a href="about.html" class="nav-link  " ><span data-i18n="nav.about">Our team</span></a>
+          <a href="contact.html" class="nav-link mobile-contact " ><span data-i18n="nav.contact">Get in touch</span></a>
+        </nav>
+        <div class="header-actions">
+          <label class="visually-hidden" for="language-select" data-i18n="nav.language">Choose language</label>
+          <select id="language-select" class="language-select">
+            <option value="en">EN</option>
+            <option value="kk">ҚАЗ</option>
+            <option value="ru">РУС</option>
+          </select>
+          <button
+            type="button"
+            id="theme-toggle"
+            class="theme-toggle"
+            data-i18n-aria="nav.theme"
+            aria-label="Switch color theme"><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11-11 8 8 0 1 0 11 11Z"/></svg></button>
+          <a href="contact.html" class="button button-small header-contact" data-i18n="nav.contact">Get in touch</a>
+          <button
+            id="menu-toggle"
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="main-nav"
+            data-i18n-aria="nav.menu"
+            aria-label="Open navigation"><span></span><span></span></button>
+        </div>
+      </div>
+    </header>
+    
+    <main id="main">
+      <section class="hero container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="home.eyebrow">ASTANA. YOUR NEXT CHAPTER.</p>
+            <h1 class="display-heading preserve-lines" data-i18n="home.title">Find a place.
+Make it yours.</h1>
+            <p class="hero-subtitle" data-i18n="home.subtitle">Explore Astana apartments with asking prices, details, and images from their original Krisha listings.</p>
+            <a href="properties.html" class="text-link"><span data-i18n="home.viewAll">View all properties</span><span aria-hidden="true">↗</span></a>
+            <div class="hero-stats">
+              <div>
+                <strong id="stat-properties">12</strong>
+                <span data-i18n="home.statHomes">Krisha listings</span>
+              </div>
+              <div>
+                <strong id="stat-districts">3</strong>
+                <span data-i18n="home.statDistricts">Astana districts</span>
+              </div>
+              <div>
+                <strong>4</strong>
+                <span data-i18n="home.statTeam">people, one vision</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img
+              src="images/astana-hero.jpg"
+              alt="W Towers in Astana, architectural project rendering supplied with the reference images"
+              data-i18n-alt="home.heroAlt"
+              width="1800"
+              height="1300"
+              fetchpriority="high">
+            <div class="hero-image-label">
+              <span class="eyebrow" data-i18n="home.collection">ASTANA · W TOWERS</span>
+              <p data-i18n="home.photoCaption">A new perspective on city living.</p>
+              <a href="properties.html" aria-label="Explore the collection" data-i18n-aria="saved.explore">↗</a>
+            </div>
+            <span class="hero-stamp" aria-hidden="true"><span data-i18n="brand.tagline">A place to belong</span><b>✳</b></span>
+          </div>
+        </div>
+        <form id="hero-search" class="hero-search" action="properties.html" method="get">
+          <div class="search-query">
+            <label for="hero-query" data-i18n="home.searchLabel">Your next home starts here</label>
+            <input
+              id="hero-query"
+              name="q"
+              type="search"
+              placeholder="City, neighborhood, or a little inspiration…"
+              data-i18n-placeholder="home.searchPlaceholder">
+          </div>
+          <div class="search-district">
+            <label class="visually-hidden" for="hero-district" data-i18n="properties.district">District</label>
+            <select name="district" id="hero-district">
+                <option value="all" data-i18n="properties.allDistricts">All districts</option>
+                <option value="Yesil" data-i18n="district.Yesil">Yesil</option>
+                <option value="Nura" data-i18n="district.Nura">Nura</option>
+                <option value="Saraishyk" data-i18n="district.Saraishyk">Saraishyk</option>
+              </select>
+          </div>
+          <button class="button" type="submit"><span data-i18n="home.searchButton">Explore homes</span><span aria-hidden="true">↗</span></button>
+        </form>
+        <p class="search-caption" data-i18n="home.searchHint">Made for slower browsing and better decisions.</p>
+      </section>
+      <section class="section container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="home.featuredEyebrow">A FEW PLACES WE LOVE</p>
+            <h2 data-i18n="home.featuredTitle">Spaces with a story.</h2>
+            <p data-i18n="home.featuredText">Recognizable addresses. Real Krisha listings. Explore apartments in Astana’s residential complexes.</p>
+          </div>
+          <a class="text-link" href="properties.html"><span data-i18n="home.viewAll">View all properties</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <div id="featured-grid" class="row g-4">
+          <p class="loading-text" role="status" data-i18n="common.loading">Finding your next possibility…</p>
+        </div>
+      </section>
+      <section class="approach-section">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+              <p class="eyebrow" data-i18n="home.approachEyebrow">A LITTLE MORE HUMAN</p>
+              <h2 class="preserve-lines" data-i18n="home.approachTitle">Your home search,
+at your own pace.</h2>
+              <p class="approach-intro" data-i18n="home.approachText">Keep the places you love, compare the details that matter, and plan your next step. Everything you need in one calm space.</p>
+              <a href="about.html" class="text-link"><span data-i18n="nav.about">Our team</span><span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="col-lg-6 steps">
+              <div class="step">
+                <span>01</span>
+                <div>
+                  <h3 data-i18n="home.step1Title">Find your kind of space</h3>
+                  <p data-i18n="home.step1Text">Filter Astana apartments by district, rooms, and budget.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span>02</span>
+                <div>
+                  <h3 data-i18n="home.step2Title">Keep your favorites close</h3>
+                  <p data-i18n="home.step2Text">Save homes and compare up to three, side by side.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span>03</span>
+                <div>
+                  <h3 data-i18n="home.step3Title">Picture the next chapter</h3>
+                  <p data-i18n="home.step3Text">Explore the details and try a demo viewing request.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container closing-cta">
+        <span class="cta-mark" aria-hidden="true">✳</span>
+        <h2 data-i18n="home.ctaTitle">A new chapter starts here.</h2>
+        <p data-i18n="home.ctaText">Find the space that feels like you.</p>
+        <a class="button" href="properties.html"><span data-i18n="home.ctaButton">Find my place</span><span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a class="footer-brand" href="index.html">QONYS<span>HOMES</span></a>
+            <h2 data-i18n="footer.title">Find your place.</h2>
+            <p data-i18n="footer.text">Considered homes. New beginnings. A place to belong.</p>
+          </div>
+          <div class="footer-links">
+            <span class="eyebrow" data-i18n="footer.explore">Explore</span>
+            <a href="properties.html" data-i18n="nav.properties">Properties</a>
+            <a href="saved.html" data-i18n="nav.saved">Saved homes</a>
+            <a href="about.html" data-i18n="nav.about">Our team</a>
+            <a href="contact.html" data-i18n="nav.contact">Get in touch</a>
+          </div>
+          <div class="footer-project">
+            <span class="eyebrow" data-i18n="footer.project">THE FINAL PROJECT</span>
+            <p class="footer-lead" data-i18n="footer.lead">Project lead: Temirgaliyev Nurassyl</p>
+              <p data-i18n="footer.team">Created by a team of four</p>
+            <div class="footer-monogram">N / S / D / A</div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span data-i18n="footer.copyright">© 2026 Qonys Homes</span>
+          <span data-i18n="footer.demo">Educational project · Krisha price snapshots · Demo forms</span>
+        </div>
+      </div>
+    </footer>
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" data-i18n-aria="a11y.backTop">↑</button>
+    <noscript>
+      <p class="noscript-notice">Please enable JavaScript to load homes, switch languages, and use interactive features.</p>
+    </noscript>
+    <div id="toast-region" class="toast-region" aria-live="polite"></div>
+  </body>
+</html>

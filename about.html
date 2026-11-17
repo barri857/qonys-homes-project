@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Qonys Homes — an interactive student real estate project for Astana. Explore real Krisha apartment listing snapshots, compare homes, and save your favorites.">
+    <meta name="color-scheme" content="light dark">
+    <title>Our team | Qonys Homes</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="vendor/jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="about">
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+    
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Qonys Homes"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M7 20 20 7l13 13v14H7V20Z" stroke="currentColor" stroke-width="1.7"/><path d="M14 34V20h12v14M2 20 20 2l18 18" stroke="currentColor" stroke-width="1.7"/></svg><span>QONYS<small>H O M E S</small></span></a>
+        <nav id="main-nav" class="main-nav" aria-label="Main navigation" data-i18n-aria="common.mainNavigation">
+          <a href="index.html" class="nav-link  " ><span data-i18n="nav.home">Home</span></a>
+          <a href="properties.html" class="nav-link  " ><span data-i18n="nav.properties">Properties</span></a>
+          <a href="saved.html" class="nav-link  " ><span data-i18n="nav.saved">Saved homes</span> <span class="saved-count" data-saved-count>0</span></a>
+          <a href="about.html" class="nav-link  active" aria-current="page"><span data-i18n="nav.about">Our team</span></a>
+          <a href="contact.html" class="nav-link mobile-contact " ><span data-i18n="nav.contact">Get in touch</span></a>
+        </nav>
+        <div class="header-actions">
+          <label class="visually-hidden" for="language-select" data-i18n="nav.language">Choose language</label>
+          <select id="language-select" class="language-select">
+            <option value="en">EN</option>
+            <option value="kk">ҚАЗ</option>
+            <option value="ru">РУС</option>
+          </select>
+          <button
+            type="button"
+            id="theme-toggle"
+            class="theme-toggle"
+            data-i18n-aria="nav.theme"
+            aria-label="Switch color theme"><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11-11 8 8 0 1 0 11 11Z"/></svg></button>
+          <a href="contact.html" class="button button-small header-contact" data-i18n="nav.contact">Get in touch</a>
+          <button
+            id="menu-toggle"
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="main-nav"
+            data-i18n-aria="nav.menu"
+            aria-label="Open navigation"><span></span><span></span></button>
+        </div>
+      </div>
+    </header>
+    
+    <main id="main">
+      <section class="container about-intro">
+        <div>
+          <p class="eyebrow" data-i18n="about.eyebrow">FOUR PEOPLE. ONE SHARED IDEA.</p>
+          <h1 class="preserve-lines" data-i18n="about.title">Good spaces bring
+people together.</h1>
+          <p data-i18n="about.subtitle">We built Qonys Homes around a simple thought: finding a home should feel considered, clear, and personal.</p>
+        </div>
+        <div class="about-art" aria-hidden="true">
+          <div class="arch arch-one"></div>
+          <div class="arch arch-two"></div>
+          <span>Q.</span>
+          <div class="art-caption" data-i18n="brand.tagline">A place to belong</div>
+        </div>
+      </section>
+      <section class="story-section">
+        <div class="container row g-5 mx-auto">
+          <div class="col-lg-5">
+            <p class="eyebrow" data-i18n="about.storyEyebrow">THE IDEA BEHIND QONYS</p>
+            <h2 data-i18n="about.storyTitle">A place to belong.</h2>
+          </div>
+          <div class="col-lg-7">
+            <p class="story-text" data-i18n="about.storyText">Qonys is inspired by the idea of a dwelling and a place of settlement. Our project brings that feeling into a calm, useful apartment browsing experience for Astana.</p>
+            <p class="small-note" data-i18n="about.projectNote">An educational frontend using real Krisha asking-price snapshots and matching listing images. Viewing and contact forms remain local demonstrations.</p>
+          </div>
+        </div>
+      </section>
+      <section class="container section team-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="about.teamEyebrow">MEET THE TEAM</p>
+            <h2 data-i18n="about.teamTitle">Built with four perspectives.</h2>
+            <p data-i18n="about.teamText">Our four-person final project combines structure, design, interaction, and thoughtful details.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-6 col-xl-3">
+            <article class="team-card team-lead">
+              <div class="team-avatar avatar-1" aria-hidden="true">NT</div>
+              <span class="team-number">01</span>
+              <span class="team-lead-badge" data-i18n="about.leadBadge">PROJECT LEAD</span>
+                  <h3>Temirgaliyev Nurassyl</h3>
+              <p data-i18n="about.role1">Project lead · Concept, structure &amp; integration</p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <article class="team-card">
+              <div class="team-avatar avatar-2" aria-hidden="true">ST</div>
+              <span class="team-number">02</span>
+              <h3>Salamat Toremuratov</h3>
+              <p data-i18n="about.role2">Visual design &amp; responsive styling</p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <article class="team-card">
+              <div class="team-avatar avatar-3" aria-hidden="true">DD</div>
+              <span class="team-number">03</span>
+              <h3>Damir Dyussenbay</h3>
+              <p data-i18n="about.role3">Property data &amp; interactive browsing</p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <article class="team-card">
+              <div class="team-avatar avatar-4" aria-hidden="true">AA</div>
+              <span class="team-number">04</span>
+              <h3>Akzhigit Agabekov</h3>
+              <p data-i18n="about.role4">Forms, localization &amp; quality checks</p>
+            </article>
+          </div>
+        </div>
+        <p class="small-note mt-4" data-i18n="about.planNote">Suggested areas of responsibility for preparation and defense. Each member should review and understand the shared code.</p>
+      </section>
+      <section class="container principles-section">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <span>01 /</span>
+            <h3 data-i18n="about.principle1Title">Clarity comes first</h3>
+            <p data-i18n="about.principle1Text">Readable layouts and useful filters keep the next step simple.</p>
+          </div>
+          <div class="col-md-4">
+            <span>02 /</span>
+            <h3 data-i18n="about.principle2Title">Made for everyone</h3>
+            <p data-i18n="about.principle2Text">Three languages, two themes, keyboard access, and layouts that adapt.</p>
+          </div>
+          <div class="col-md-4">
+            <span>03 /</span>
+            <h3 data-i18n="about.principle3Title">Details that work</h3>
+            <p data-i18n="about.principle3Text">A real JSON collection, saved preferences, and interactions that respond to you.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a class="footer-brand" href="index.html">QONYS<span>HOMES</span></a>
+            <h2 data-i18n="footer.title">Find your place.</h2>
+            <p data-i18n="footer.text">Considered homes. New beginnings. A place to belong.</p>
+          </div>
+          <div class="footer-links">
+            <span class="eyebrow" data-i18n="footer.explore">Explore</span>
+            <a href="properties.html" data-i18n="nav.properties">Properties</a>
+            <a href="saved.html" data-i18n="nav.saved">Saved homes</a>
+            <a href="about.html" data-i18n="nav.about">Our team</a>
+            <a href="contact.html" data-i18n="nav.contact">Get in touch</a>
+          </div>
+          <div class="footer-project">
+            <span class="eyebrow" data-i18n="footer.project">THE FINAL PROJECT</span>
+            <p class="footer-lead" data-i18n="footer.lead">Project lead: Temirgaliyev Nurassyl</p>
+              <p data-i18n="footer.team">Created by a team of four</p>
+            <div class="footer-monogram">N / S / D / A</div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span data-i18n="footer.copyright">© 2026 Qonys Homes</span>
+          <span data-i18n="footer.demo">Educational project · Krisha price snapshots · Demo forms</span>
+        </div>
+      </div>
+    </footer>
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" data-i18n-aria="a11y.backTop">↑</button>
+    <noscript>
+      <p class="noscript-notice">Please enable JavaScript to load homes, switch languages, and use interactive features.</p>
+    </noscript>
+    <div id="toast-region" class="toast-region" aria-live="polite"></div>
+  </body>
+</html>

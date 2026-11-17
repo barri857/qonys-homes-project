@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Qonys Homes — an interactive student real estate project for Astana. Explore real Krisha apartment listing snapshots, compare homes, and save your favorites.">
+    <meta name="color-scheme" content="light dark">
+    <title>Get in touch | Qonys Homes</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="vendor/jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="contact">
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+    
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Qonys Homes"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M7 20 20 7l13 13v14H7V20Z" stroke="currentColor" stroke-width="1.7"/><path d="M14 34V20h12v14M2 20 20 2l18 18" stroke="currentColor" stroke-width="1.7"/></svg><span>QONYS<small>H O M E S</small></span></a>
+        <nav id="main-nav" class="main-nav" aria-label="Main navigation" data-i18n-aria="common.mainNavigation">
+          <a href="index.html" class="nav-link  " ><span data-i18n="nav.home">Home</span></a>
+          <a href="properties.html" class="nav-link  " ><span data-i18n="nav.properties">Properties</span></a>
+          <a href="saved.html" class="nav-link  " ><span data-i18n="nav.saved">Saved homes</span> <span class="saved-count" data-saved-count>0</span></a>
+          <a href="about.html" class="nav-link  " ><span data-i18n="nav.about">Our team</span></a>
+          <a href="contact.html" class="nav-link mobile-contact active" aria-current="page"><span data-i18n="nav.contact">Get in touch</span></a>
+        </nav>
+        <div class="header-actions">
+          <label class="visually-hidden" for="language-select" data-i18n="nav.language">Choose language</label>
+          <select id="language-select" class="language-select">
+            <option value="en">EN</option>
+            <option value="kk">ҚАЗ</option>
+            <option value="ru">РУС</option>
+          </select>
+          <button
+            type="button"
+            id="theme-toggle"
+            class="theme-toggle"
+            data-i18n-aria="nav.theme"
+            aria-label="Switch color theme"><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11-11 8 8 0 1 0 11 11Z"/></svg></button>
+          <a href="contact.html" class="button button-small header-contact" data-i18n="nav.contact">Get in touch</a>
+          <button
+            id="menu-toggle"
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="main-nav"
+            data-i18n-aria="nav.menu"
+            aria-label="Open navigation"><span></span><span></span></button>
+        </div>
+      </div>
+    </header>
+    
+    <main id="main">
+      <section class="container page-intro contact-intro">
+        <p class="eyebrow" data-i18n="contact.eyebrow">LET’S TALK ABOUT YOUR NEXT CHAPTER</p>
+        <h1 class="preserve-lines" data-i18n="contact.title">A little guidance.
+A lot of possibility.</h1>
+        <p data-i18n="contact.subtitle">Try our contact experience. Tell us what your ideal space looks like.</p>
+      </section>
+      <section class="container contact-section">
+        <div class="row g-5">
+          <div class="col-lg-7">
+            <div class="contact-form-card">
+              <h2 data-i18n="contact.formTitle">Start a conversation</h2>
+              <p class="form-demo-note" data-i18n="contact.demoNote">Demo form: your request stays in this browser. It is not sent to an agent or server.</p>
+              <form id="contact-form" class="row g-3" novalidate>
+                <div class="col-md-6">
+                  <label for="contact-name" data-i18n="contact.name">Your name</label>
+                  <input
+                    id="contact-name"
+                    name="name"
+                    class="form-control"
+                    autocomplete="name"
+                    required
+                    maxlength="80"
+                    data-i18n-placeholder="contact.namePlaceholder"
+                    placeholder="How should we call you?"
+                    aria-describedby="error-name">
+                  <span id="error-name" class="field-error" data-error-for="name"></span>
+                </div>
+                <div class="col-md-6">
+                  <label for="contact-email" data-i18n="contact.email">Email address</label>
+                  <input
+                    id="contact-email"
+                    name="email"
+                    class="form-control"
+                    type="email"
+                    autocomplete="email"
+                    required
+                    maxlength="120"
+                    data-i18n-placeholder="contact.emailPlaceholder"
+                    placeholder="you@example.com"
+                    aria-describedby="error-email">
+                  <span id="error-email" class="field-error" data-error-for="email"></span>
+                </div>
+                <div class="col-md-6">
+                  <label for="contact-phone" data-i18n="contact.phone">Phone (optional)</label>
+                  <input
+                    id="contact-phone"
+                    name="phone"
+                    class="form-control"
+                    type="tel"
+                    autocomplete="tel"
+                    maxlength="30"
+                    data-i18n-placeholder="contact.phonePlaceholder"
+                    placeholder="+7 700 000 00 00"
+                    aria-describedby="error-phone">
+                  <span id="error-phone" class="field-error" data-error-for="phone"></span>
+                </div>
+                <div class="col-md-6">
+                  <label for="contact-interest" data-i18n="contact.interest">I’m interested in</label>
+                  <select id="contact-interest" name="interest" class="form-select">
+                    <option value="buy" data-i18n="contact.buy">Finding a home</option>
+                    <option value="viewing" data-i18n="contact.viewing">Planning a viewing</option>
+                    <option value="general" data-i18n="contact.general">A general question</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="contact-message" data-i18n="contact.message">What do you have in mind?</label>
+                  <textarea
+                    id="contact-message"
+                    name="message"
+                    class="form-control"
+                    rows="4"
+                    required
+                    minlength="10"
+                    maxlength="1000"
+                    data-i18n-placeholder="contact.messagePlaceholder"
+                    placeholder="A sunny apartment, room for a family, a quieter neighborhood…"
+                    aria-describedby="error-message"></textarea>
+                  <span id="error-message" class="field-error" data-error-for="message"></span>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="consent"
+                      id="contact-consent"
+                      required
+                      aria-describedby="error-consent">
+                    <label class="form-check-label" for="contact-consent" data-i18n="contact.consent">I agree to save this demo request in this browser.</label>
+                  </div>
+                  <span id="error-consent" class="field-error" data-error-for="consent"></span>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="button"><span data-i18n="contact.submit">Save demo request</span><span aria-hidden="true">↗</span></button>
+                </div>
+              </form>
+              <p id="contact-success" class="success-message" role="status" hidden data-i18n="contact.success">Your demo request is saved on this browser. No message was sent.</p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <aside class="contact-aside">
+              <div class="aside-mark" aria-hidden="true">✳</div>
+              <h2 data-i18n="contact.detailTitle">A conversation starts here.</h2>
+              <p data-i18n="contact.detailText">Browse the collection, save a few favorites, and use the demo form to practice your next step.</p>
+              <dl>
+                <dt data-i18n="contact.emailLabel">EXAMPLE EMAIL</dt>
+                <dd><span>hello@qonys.example</span><button
+                  class="copy-button"
+                  id="copy-email"
+                  type="button"
+                  data-copy="hello@qonys.example"
+                  data-i18n="contact.copy">Copy email</button></dd>
+                <dt data-i18n="contact.locationLabel">OUR FOCUS</dt>
+                <dd data-i18n="contact.location">Astana, Kazakhstan</dd>
+                <dt data-i18n="contact.hoursLabel">AT YOUR OWN PACE</dt>
+                <dd data-i18n="contact.hours">The collection is always open.</dd>
+              </dl>
+              <p class="small-note" data-i18n="contact.privacy">Only submit sample information. Browser storage can be cleared in your browser settings.</p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a class="footer-brand" href="index.html">QONYS<span>HOMES</span></a>
+            <h2 data-i18n="footer.title">Find your place.</h2>
+            <p data-i18n="footer.text">Considered homes. New beginnings. A place to belong.</p>
+          </div>
+          <div class="footer-links">
+            <span class="eyebrow" data-i18n="footer.explore">Explore</span>
+            <a href="properties.html" data-i18n="nav.properties">Properties</a>
+            <a href="saved.html" data-i18n="nav.saved">Saved homes</a>
+            <a href="about.html" data-i18n="nav.about">Our team</a>
+            <a href="contact.html" data-i18n="nav.contact">Get in touch</a>
+          </div>
+          <div class="footer-project">
+            <span class="eyebrow" data-i18n="footer.project">THE FINAL PROJECT</span>
+            <p class="footer-lead" data-i18n="footer.lead">Project lead: Temirgaliyev Nurassyl</p>
+              <p data-i18n="footer.team">Created by a team of four</p>
+            <div class="footer-monogram">N / S / D / A</div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span data-i18n="footer.copyright">© 2026 Qonys Homes</span>
+          <span data-i18n="footer.demo">Educational project · Krisha price snapshots · Demo forms</span>
+        </div>
+      </div>
+    </footer>
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" data-i18n-aria="a11y.backTop">↑</button>
+    <noscript>
+      <p class="noscript-notice">Please enable JavaScript to load homes, switch languages, and use interactive features.</p>
+    </noscript>
+    <div id="toast-region" class="toast-region" aria-live="polite"></div>
+  </body>
+</html>
